@@ -42,6 +42,7 @@ bl9 = new Block(700,120,30,40);
 }
 
 function draw() {
+
   background(0);
   Engine.update(engine);
   
@@ -68,6 +69,7 @@ function draw() {
   bl7.display();
   bl8.display();
   bl9.display();
+ 
 
 
   drawSprites();
